@@ -896,10 +896,10 @@ var __vue_template__ = typeof __vue_render__ !== 'undefined' ? { render: __vue_r
 /* style */
 var __vue_inject_styles__ = function (inject) {
   if (!inject) return;
-  inject("data-v-caa2d078_0", { source: "\n.virtual-scroller[data-v-caa2d078]:not(.page-mode) {\n  overflow-y: auto;\n}\n.item-container[data-v-caa2d078] {\n  box-sizing: border-box;\n  width: 100%;\n  overflow: hidden;\n}\n.items[data-v-caa2d078] {\n  width: 100%;\n}\n", map: undefined, media: undefined });
+  inject("data-v-377050a7_0", { source: "\n.virtual-scroller[data-v-377050a7]:not(.page-mode) {\n  overflow-y: auto;\n}\n.item-container[data-v-377050a7] {\n  box-sizing: border-box;\n  width: 100%;\n  overflow: hidden;\n}\n.items[data-v-377050a7] {\n  width: 100%;\n}\n", map: undefined, media: undefined });
 };
 /* scoped */
-var __vue_scope_id__ = "data-v-caa2d078";
+var __vue_scope_id__ = "data-v-377050a7";
 /* module identifier */
 var __vue_module_identifier__ = undefined;
 /* functional template */
@@ -909,7 +909,7 @@ function __vue_normalize__(template, style, script$$1, scope, functional, module
   var component = (typeof script$$1 === 'function' ? script$$1.options : script$$1) || {};
 
   {
-    component.__file = "/home/akryum/Projets/vue-virtual-scroller/src/components/VirtualScroller.vue";
+    component.__file = "/Users/amata/work/vue/vue-virtual-scroller/src/components/VirtualScroller.vue";
   }
 
   if (!component.render) {
@@ -1354,7 +1354,7 @@ var __vue_render__$1 = function __vue_render__() {
         return _vm.handleScroll($event);
       }
     }
-  }, [_c("div", {
+  }, [_vm._t("before-container"), _vm._v(" "), _c("div", {
     ref: "wrapper",
     staticClass: "item-wrapper",
     style: { height: _vm.totalHeight + "px" }
@@ -1377,10 +1377,10 @@ var __vue_template__$1 = typeof __vue_render__$1 !== 'undefined' ? { render: __v
 /* style */
 var __vue_inject_styles__$1 = function (inject) {
   if (!inject) return;
-  inject("data-v-0ff19954_0", { source: "\n.recycle-list[data-v-0ff19954]:not(.page-mode) {\n  overflow-y: auto;\n}\n.item-wrapper[data-v-0ff19954] {\n  box-sizing: border-box;\n  width: 100%;\n  overflow: hidden;\n  position: relative;\n}\n.item-view[data-v-0ff19954] {\n  width: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  will-change: transform;\n}\n", map: undefined, media: undefined });
+  inject("data-v-3d73798d_0", { source: "\n.recycle-list[data-v-3d73798d]:not(.page-mode) {\n  overflow-y: auto;\n}\n.item-wrapper[data-v-3d73798d] {\n  box-sizing: border-box;\n  width: 100%;\n  overflow: hidden;\n  position: relative;\n}\n.item-view[data-v-3d73798d] {\n  width: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  will-change: transform;\n}\n", map: undefined, media: undefined });
 };
 /* scoped */
-var __vue_scope_id__$1 = "data-v-0ff19954";
+var __vue_scope_id__$1 = "data-v-3d73798d";
 /* module identifier */
 var __vue_module_identifier__$1 = undefined;
 /* functional template */
@@ -1390,7 +1390,7 @@ function __vue_normalize__$1(template, style, script, scope, functional, moduleI
   var component = (typeof script === 'function' ? script.options : script) || {};
 
   {
-    component.__file = "/home/akryum/Projets/vue-virtual-scroller/src/components/RecycleList.vue";
+    component.__file = "/Users/amata/work/vue/vue-virtual-scroller/src/components/RecycleList.vue";
   }
 
   if (!component.render) {
