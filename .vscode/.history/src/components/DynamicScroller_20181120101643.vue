@@ -126,10 +126,10 @@ export default {
 
   methods: {
     onScrollerResize () {
-      // const scroller = this.$refs.scroller
-      // if (scroller) {
-      //   this.forceUpdate()
-      // }
+      const scroller = this.$refs.scroller
+      if (scroller) {
+        this.forceUpdate()
+      }
       this.$emit('resize')
     },
 
